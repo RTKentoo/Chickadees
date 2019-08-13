@@ -17,6 +17,7 @@ const Logo = styled.header`
 
 	> img {
 		max-height: 60px;
+		min-width: 100px;
 	}
 
 	> a {
@@ -74,7 +75,6 @@ const SocialMedia = styled.div`
 	> ul, li, img {
 		max-height: 25px;
 	}
-
 
 `
 

@@ -13,7 +13,8 @@ const FooterTextWrapper = styled.div`
 	text-align: left;
 	width: 50%;
 
-	> a{
+	> a {
+		color: #4b766b;
 		text-decoration: none;
 	}
 `
