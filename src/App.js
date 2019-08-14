@@ -1,11 +1,11 @@
 import React, {Component} from 'react'
-import Header from './Header'
-import ImageCarousel from './ImageCarousel'
-import About from './About'
-import Staff from './Staff'
-import Testimonials from './Testimonials'
-import Contact from './Contact'
-import Footer from './Footer'
+import Header from './Components/Header/Header'
+import ImageCarousel from './Components/Main/ImageCarousel/ImageCarousel'
+import About from './Components/Main/About/About'
+import Staff from './Components/Main/Staff/Staff'
+import Testimonials from './Components/Main/Testimonials/Testimonials'
+import Contact from './Components/Main/Contact/Contact'
+import Footer from './Components/Footer/Footer'
 
 
 

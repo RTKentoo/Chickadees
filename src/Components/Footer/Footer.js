@@ -23,7 +23,7 @@ function Footer() {
 	return(
 		<FooterWrapper>
 			<FooterTextWrapper>
-				©2019 Chickadees Day School
+				©2019 Chickadees Day School - All Rights Reserved.
 			</FooterTextWrapper>
 
 			<FooterTextWrapper>
