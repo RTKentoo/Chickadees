@@ -1,22 +1,18 @@
 import React, {Component} from 'react'
 import styled from 'styled-components'
 
+
 const StaffCardWrapper = styled.div`
 	display: grid
 		grid-template-columns: 100%;
 		grid-template-rows: 50% 10% 40%;
-	
-
+	height: 95%;
+	width: 27em;
+	margin-bottom: 3em;
 	background-color: #B5D3D2;
-	border: 0 solid #1e4e42;
+	border: 0px solid #1e4e42;
 	border-radius: 2%;
-	height: 90%;
-	width: 20em;
-	justify-content: center;
 	box-shadow: 10px 5px 15px #888888;
-	padding-bottom: 10px;
-	object-fit: contain;
-
 `
 
 const StaffPortraitWrapper = styled.div`
@@ -25,32 +21,32 @@ const StaffPortraitWrapper = styled.div`
 	border-radius: 50%;
 	height: 100%;
 	overflow: hidden;
+	box-shadow: 5px 2px 15px #888888;
 
 	> img {
 		max-width: 100%;
-		
 	}
 `
 
 const StaffNameWrapper = styled.div`
 	font-family: "Yrsa", Georgia, serif;
+	font-size: 1.3em;
 	text-weight: lighter;
 	text-align: center;
 	color: #1e4e42;
-	padding-top: 5px;
+	padding-top: 1em;
 `
 
 const StaffBioWrapper = styled.div`
 	color: #1e4e42;
+	background-color: #E0EDED;
+	border-radius: 3%;
 	text-align: left;
-	margin: 0 5px 0 5px;
+	margin: auto 5px auto 5px;
 	padding: 5px 10px 5px 10px;
-	border: 0px solid #1e4e42;
-	height: auto%;
+	height: 75%;
 	width: auto;
 `
-
-
 
 class StaffCard extends Component {
 	constructor(props) {
@@ -64,12 +60,15 @@ class StaffCard extends Component {
 				<StaffPortraitWrapper>
 					<img src={this.props.portrait} />
 				</StaffPortraitWrapper>
+
 				<StaffNameWrapper>
 					<h3>{this.props.staffName}</h3>
 				</StaffNameWrapper>
+
 				<StaffBioWrapper>
 					{this.props.bio}
 				</StaffBioWrapper>
+
 			</StaffCardWrapper>
 		)
 	}
