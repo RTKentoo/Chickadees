@@ -1,6 +1,11 @@
 import React, {Component} from 'react'
 import styled from 'styled-components'
 
+const TestimonialsWrapper = styled.div`
+	height: 350px;
+
+`
+
 class Testimonials extends Component {
 	constructor() {
 		super()
@@ -9,9 +14,11 @@ class Testimonials extends Component {
 
 	render() {
 		return(
-			<div>
-				Testimonials
-			</div>
+			<TestimonialsWrapper>
+				<div>
+					Testimonials
+				</div>
+			</TestimonialsWrapper>
 		)
 	}
 }

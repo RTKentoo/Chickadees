@@ -6,7 +6,7 @@ const StaffCardWrapper = styled.div`
 	display: grid
 		grid-template-columns: 100%;
 		grid-template-rows: 50% 10% 40%;
-	height: 95%;
+	height: 90%;
 	width: 27em;
 	margin-bottom: 3em;
 	background-color: #B5D3D2;
@@ -19,7 +19,6 @@ const StaffPortraitWrapper = styled.div`
 	margin: 10px 20px 0 20px;
 	border: 3px solid #1e4e42;
 	border-radius: 50%;
-	height: 100%;
 	overflow: hidden;
 	box-shadow: 5px 2px 15px #888888;
 
@@ -42,10 +41,9 @@ const StaffBioWrapper = styled.div`
 	background-color: #E0EDED;
 	border-radius: 3%;
 	text-align: left;
-	margin: auto 5px auto 5px;
+	height: 90%;
 	padding: 5px 10px 5px 10px;
-	height: 75%;
-	width: auto;
+	max-width: auto;
 `
 
 class StaffCard extends Component {
@@ -57,8 +55,9 @@ class StaffCard extends Component {
 	render() {
 		return(
 			<StaffCardWrapper>
+			
 				<StaffPortraitWrapper>
-					<img src={this.props.portrait} />
+					<img src={this.props.portrait} alt="" />
 				</StaffPortraitWrapper>
 
 				<StaffNameWrapper>
