@@ -4,7 +4,7 @@ import styled from 'styled-components'
 const SlideBodyWrapper = styled.div`
 	border-top: 1px solid #B5D3D2;
 	border-bottom: 1px solid #B5D3D2;
-	margin-top: 2.75em;
+	margin-top: 2.5em;
 	height: 450px;
 	background: url(https://picsum.photos/2000/450) no-repeat center center fixed;
 	background-repeat: no-repeat;
@@ -16,9 +16,8 @@ const SlideBodyWrapper = styled.div`
 `
 
 const SlideCard1TextWrapper = styled.div`
-	box-shadow: 5px 2px 15px #888888;
 	background-color: white;
-	max-width: 20%;
+	max-width: 350px;
 	margin-left: 14em;
 	margin-top: 4em;
 	padding: 0 1em .5em 1em;
@@ -36,8 +35,6 @@ const TitleWord = styled.span`
 	text-align: left;
 	font-size: 50px;
 `
-
-
 
 function SlideCard1() {
 	return(

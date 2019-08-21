@@ -15,7 +15,6 @@ const SlideBodyWrapper = styled.div`
 ` 
 
 const SlideCard2Wrapper = styled.div`
-	box-shadow: 5px 2px 15px #888888;
 	background-color: white;
 	max-width: 20%;
 	margin-left: 14em;

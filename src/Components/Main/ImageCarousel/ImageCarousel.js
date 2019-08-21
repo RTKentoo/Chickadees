@@ -37,9 +37,10 @@ const Arrow = styled.span`
 `
 
 const Dot = styled.span`
+	color: white;
 	font-size: 1.5em;
 	cursor: pointer;
-	text-shadow: 1px 1px 1px #fff;
+	text-shadow: 1px 1px 1px black;
 	user-select: none;
 `
 
