@@ -21,7 +21,8 @@ const SlideCard1TextWrapper = styled.div`
 	margin-left: 14em;
 	margin-top: 4em;
 	padding: 0 1em .5em 1em;
-	border-radius: 5%;
+	border: 2px solid #B5D3D2; 
+	border-radius: 4%;
 	text-align: left;
 	color: #4b766b;
 
